@@ -1,0 +1,96 @@
+:root {
+    /* different line colors */
+    --chart-1: blue;
+    --chart-2: purple;
+    --chart-3: red;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* light theme colors */
+body.light{
+    --bg-color: #fff;
+    --grid-color: #ccc;
+    --text-color: #000;
+    --chart-main: green;
+}
+
+/* dark theme */
+body.dark {
+    --bg-color: #121212;
+    --grid-color: #444;
+    --text-color: #fff;
+    --chart-main: lime;
+
+    --chart-1: #4fc3f7;
+    --chart-2: #ba68c8;
+    --chart-3: #ef5350;
+}
+
+/* high contrast theme */
+body.contrast {
+    --bg-color: black;
+    --grid-color: white;
+    --text-color: yellow;
+    --chart-main: white;
+
+    --chart-1: #00ffff;
+    --chart-2: #ff00ff;
+    --chart-3: #ffff00;
+}
+
+#chartCanvas {
+    border: 1px solid black;
+}
+
+.button-start-pause {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.button-start-pause button {
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 5px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-start-pause button:hover{
+    background-color: lightgray;
+}
+
+/* controls at top */
+.controls {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

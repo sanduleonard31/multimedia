@@ -1,0 +1,314 @@
+[
+    {
+        "id": 1,
+        "artist": "The Wanderers",
+        "album": "Summer Journey",
+        "thumbnail": "1.jpg",
+        "tracklist": [
+            {
+                "number": 1,
+                "title": "Morning Light",
+                "trackLength": "3:45"
+            },
+            {
+                "number": 2,
+                "title": "Open Road",
+                "trackLength": "4:22"
+            },
+            {
+                "number": 3,
+                "title": "Sunset Boulevard",
+                "trackLength": "5:10"
+            },
+            {
+                "number": 4,
+                "title": "Free Spirit",
+                "trackLength": "3:58"
+            },
+            {
+                "number": 5,
+                "title": "Desert Wind",
+                "trackLength": "4:33"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "artist": "Electric Dreams",
+        "album": "Neon Nights",
+        "thumbnail": "2.jpg",
+        "tracklist": [
+            {
+                "number": 1,
+                "title": "City Lights",
+                "trackLength": "4:15"
+            },
+            {
+                "number": 2,
+                "title": "Digital Heart",
+                "trackLength": "3:42"
+            },
+            {
+                "number": 3,
+                "title": "Midnight Drive",
+                "trackLength": "5:03"
+            },
+            {
+                "number": 4,
+                "title": "Pulse",
+                "trackLength": "3:27"
+            },
+            {
+                "number": 5,
+                "title": "Neon Dreams",
+                "trackLength": "4:50"
+            },
+            {
+                "number": 6,
+                "title": "Electric Sky",
+                "trackLength": "4:18"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "artist": "Mountain Echo",
+        "album": "Peak Experience",
+        "thumbnail": "3.jpg",
+        "tracklist": [
+            {
+                "number": 1,
+                "title": "Summit",
+                "trackLength": "5:21"
+            },
+            {
+                "number": 2,
+                "title": "Valley Below",
+                "trackLength": "4:08"
+            },
+            {
+                "number": 3,
+                "title": "Clear Sky",
+                "trackLength": "3:55"
+            },
+            {
+                "number": 4,
+                "title": "Rocky Trail",
+                "trackLength": "4:44"
+            },
+            {
+                "number": 5,
+                "title": "Alpine Breeze",
+                "trackLength": "3:30"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "artist": "Ocean Waves",
+        "album": "Deep Blue",
+        "thumbnail": "4.jpg",
+        "tracklist": [
+            {
+                "number": 1,
+                "title": "Tidal Flow",
+                "trackLength": "4:12"
+            },
+            {
+                "number": 2,
+                "title": "Coral Reef",
+                "trackLength": "3:48"
+            },
+            {
+                "number": 3,
+                "title": "Horizon",
+                "trackLength": "5:15"
+            },
+            {
+                "number": 4,
+                "title": "Storm at Sea",
+                "trackLength": "4:37"
+            },
+            {
+                "number": 5,
+                "title": "Peaceful Shore",
+                "trackLength": "3:55"
+            },
+            {
+                "number": 6,
+                "title": "Sunset Sail",
+                "trackLength": "4:23"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "artist": "Forest Path",
+        "album": "Woodland Tales",
+        "thumbnail": "5.jpg",
+        "tracklist": [
+            {
+                "number": 1,
+                "title": "Ancient Trees",
+                "trackLength": "4:40"
+            },
+            {
+                "number": 2,
+                "title": "Morning Dew",
+                "trackLength": "3:22"
+            },
+            {
+                "number": 3,
+                "title": "Hidden Stream",
+                "trackLength": "5:08"
+            },
+            {
+                "number": 4,
+                "title": "Bird Song",
+                "trackLength": "2:55"
+            },
+            {
+                "number": 5,
+                "title": "Moss and Stone",
+                "trackLength": "4:17"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "artist": "Urban Pulse",
+        "album": "Metro Life",
+        "thumbnail": "6.jpg",
+        "tracklist": [
+            {
+                "number": 1,
+                "title": "Rush Hour",
+                "trackLength": "3:38"
+            },
+            {
+                "number": 2,
+                "title": "Concrete Jungle",
+                "trackLength": "4:25"
+            },
+            {
+                "number": 3,
+                "title": "Street Corner",
+                "trackLength": "3:52"
+            },
+            {
+                "number": 4,
+                "title": "Late Night Cafe",
+                "trackLength": "4:10"
+            },
+            {
+                "number": 5,
+                "title": "City Rhythm",
+                "trackLength": "3:45"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "artist": "Starlight Band",
+        "album": "Cosmic Voyage",
+        "thumbnail": "7.jpg",
+        "tracklist": [
+            {
+                "number": 1,
+                "title": "Constellation",
+                "trackLength": "5:02"
+            },
+            {
+                "number": 2,
+                "title": "Nebula Dreams",
+                "trackLength": "4:35"
+            },
+            {
+                "number": 3,
+                "title": "Galaxy Drift",
+                "trackLength": "6:12"
+            },
+            {
+                "number": 4,
+                "title": "Moonlight",
+                "trackLength": "3:48"
+            },
+            {
+                "number": 5,
+                "title": "Solar Wind",
+                "trackLength": "4:20"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "artist": "Thunder Road",
+        "album": "Highway Sessions",
+        "thumbnail": "8.jpg",
+        "tracklist": [
+            {
+                "number": 1,
+                "title": "Full Throttle",
+                "trackLength": "3:55"
+            },
+            {
+                "number": 2,
+                "title": "Distance",
+                "trackLength": "4:42"
+            },
+            {
+                "number": 3,
+                "title": "Crossroads",
+                "trackLength": "3:30"
+            },
+            {
+                "number": 4,
+                "title": "Engine Roar",
+                "trackLength": "4:08"
+            },
+            {
+                "number": 5,
+                "title": "Rest Stop Blues",
+                "trackLength": "5:15"
+            },
+            {
+                "number": 6,
+                "title": "Home Stretch",
+                "trackLength": "3:47"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "artist": "Jazz Collective",
+        "album": "Smooth Evenings",
+        "thumbnail": "9.jpg",
+        "tracklist": [
+            {
+                "number": 1,
+                "title": "Blue Note",
+                "trackLength": "5:33"
+            },
+            {
+                "number": 2,
+                "title": "Velvet Lounge",
+                "trackLength": "4:48"
+            },
+            {
+                "number": 3,
+                "title": "Saxophone Serenade",
+                "trackLength": "6:05"
+            },
+            {
+                "number": 4,
+                "title": "Piano Reflection",
+                "trackLength": "4:22"
+            },
+            {
+                "number": 5,
+                "title": "Bass Line",
+                "trackLength": "3:58"
+            }
+        ]
+    }
+]

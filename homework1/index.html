@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Keyboard</title>
+    <style>
+        /* tried to center everything */
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            background-color: black;
+        }
+        #keyboard {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darkred;
+            border: 1px solid black;
+            border-radius: 15px;
+            padding: 200px 20px 30px 20px; /* big padding on top looks better */
+        }
+        #keypad {
+            display: flex;
+            background-color: red;
+        }
+        .whiteKey {
+            position: relative;
+            width: 40px;
+            height: 240px;
+            background-color: white;
+            border: 1px solid black;
+            transition: all 0.1s; /* simpler transition */
+        }
+        .whiteKey:hover{
+            background-color: #f0f0f0;
+        }
+        .blackKey {
+            position: relative;
+            width: 24px;
+            height: 140px;
+            background-color: black;
+            border: 1px solid black;
+            margin: 0 -13px; /* negative margin to overlap */
+            z-index: 2;
+            transition: all 0.1s;
+        }
+        .blackKey:hover{
+            background-color: #333;
+        }
+        .whiteKey::after,
+        .blackKey::after {
+            content: '';
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 10px;
+            font-family: Arial;
+            user-select: none;
+        }
+
+        /* labels for white keys - C D E F G A B pattern */
+        .whiteKey:nth-of-type(7n+1)::after { content: 'C'; }
+        .whiteKey:nth-of-type(7n+2)::after { content: 'D'; }
+        .whiteKey:nth-of-type(7n+3)::after { content: 'E'; }
+        .whiteKey:nth-of-type(7n+4)::after { content: 'F'; }
+        .whiteKey:nth-of-type(7n+5)::after { content: 'G'; }
+        .whiteKey:nth-of-type(7n+6)::after { content: 'A'; }
+        .whiteKey:nth-of-type(7n+7)::after { content: 'B'; }
+
+        .blackKey::after {
+            color: white;
+            bottom: 4px;
+        }
+        /* black key labels */
+        .blackKey:nth-of-type(5n+1)::after { content: 'C#'; }
+        .blackKey:nth-of-type(5n+2)::after { content: 'Eb'; }
+        .blackKey:nth-of-type(5n+3)::after { content: 'F#'; }
+        .blackKey:nth-of-type(5n+4)::after { content: 'G#'; }
+        .blackKey:nth-of-type(5n+5)::after { content: 'Bb'; }
+        
+    </style>
+</head>
+<body>
+    <div id="keyboard">
+        <div id="keypad">            
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>            
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>            
+            <div class="whiteKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>            
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>            
+            <div class="whiteKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>            
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>            
+            <div class="whiteKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>            
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>            
+            <div class="whiteKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>            
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>
+            <div class="whiteKey"></div>
+            <div class="blackKey"></div>            
+            <div class="whiteKey"></div>                       
+            <div class="whiteKey"></div>
+        </div>
+    </div>
+</body>
+</html>

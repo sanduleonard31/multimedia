@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Clone</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/wordle.js"></script>
+</head>
+
+<body>
+    <div class="gameContainer">
+        <div id="board"></div>
+        <input type="text" id="guessInput" placeholder="Enter 5 letter word" />
+        <button type="button" id="guessButton">Guess</button>
+        <button type="button" id="newGameButton" style="display:none">New Game</button>
+    </div>
+    <div class="stats">
+        <p>Games played: <span id="gamesPlayed">0</span></p>
+        <p>Games won: <span id="gamesWon">0</span></p>
+        <p>Games lost: <span id="gamesLost">0</span></p>
+    </div>
+</body>
+
+</html>
